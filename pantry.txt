@@ -1,0 +1,7 @@
+butter
+milk
+soup
+cheese
+meat
+salt
+pepper
