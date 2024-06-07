@@ -1,4 +1,4 @@
-TITLE A Random Number Generator     (Proj4_greenede.asm)
+TITLE A Random Number Generator     (RandomNumGen.asm)
 
 ; Author: Derek Greene
 ; Last Modified: 5/20/2024
