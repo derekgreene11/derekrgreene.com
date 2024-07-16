@@ -4,7 +4,7 @@ Website to showcase my resume, education, experience, projects, and contact info
 
 ## Description
 
-Wesbite exists as a static page and heavily utilizes JavaScript to render dynamic content. 
+Wesbite is built as a series of static pages. It heavily utilizes JavaScript to render dynamic content and
 Bootstrap is used for style and UI design.
 
 ## Usage
