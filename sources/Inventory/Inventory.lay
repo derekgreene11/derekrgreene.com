@@ -1,0 +1,20 @@
+LAYOUT(InventoryLayout, 512, 456)
+	ITEM(MenuBar, menu, LeftPosZ(0, 216).TopPosZ(0, 20))
+	ITEM(Upp::TabCtrl, tab, LeftPosZ(8, 496).TopPosZ(32, 84))
+	ITEM(Upp::ArrayCtrl, array, LeftPosZ(8, 496).TopPosZ(124, 324))
+END_LAYOUT
+
+LAYOUT(ModifyLayout, 180, 52)
+	ITEM(Upp::Label, dv___0, SetLabel(t_("&Quantity")).LeftPosZ(8, 48).TopPosZ(4, 15))
+	ITEM(Upp::EditInt, quantity, Tip(t_("Enter quantity")).LeftPosZ(8, 96).TopPosZ(28, 19))
+	ITEM(Upp::Button, change, SetLabel(t_("&Change")).LeftPosZ(112, 56).TopPosZ(28, 20))
+END_LAYOUT
+
+LAYOUT(AddLayout, 424, 52)
+	ITEM(Upp::Label, dv___0, SetLabel(t_("&Part")).LeftPosZ(8, 48).TopPosZ(4, 15))
+	ITEM(Upp::EditString, part, Tip(t_("Enter part name")).LeftPosZ(4, 96).TopPosZ(28, 19))
+	ITEM(Upp::Label, dv___2, SetLabel(t_("&Quantity")).LeftPosZ(124, 48).TopPosZ(4, 15))
+	ITEM(Upp::EditInt, quantity, Min(0).Tip(t_("Enter quantity")).LeftPosZ(124, 96).TopPosZ(28, 19))
+	ITEM(Upp::Button, add, SetLabel(t_("&Add")).LeftPosZ(240, 80).TopPosZ(28, 20))
+	ITEM(Upp::Button, remove, SetLabel(t_("&Remove")).LeftPosZ(332, 80).TopPosZ(28, 20))
+END_LAYOUT
