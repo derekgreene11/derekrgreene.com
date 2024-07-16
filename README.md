@@ -4,7 +4,7 @@ Website to showcase my resume, education, experience, projects, and contact info
 
 ## Description
 
-Wesbite exists as a static page with JavaScript utilized to provide seamless navigation between links. 
+Wesbite exists as a static page and heavily utilizes JavaScript to render dynamic content. 
 
 ## Usage
 
